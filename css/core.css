@@ -181,6 +181,18 @@ header {
 	background-color: #FF4848;
 }
 
+.front-ipad {
+	background-color: #532DA4;
+}
+
+.gitscout-icon {
+	background-color: #1B56A2;
+}
+
+.mailuminati {
+	background-color: #FFC641;
+}
+
 footer {
 	margin-top: 40px;
 	margin-bottom: 60px;
@@ -189,3 +201,87 @@ footer {
 	font-family: "Avenir Next LT Pro", sans-serif;
 
 }
+
+/* RESPONSIVENESSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
+
+ /* First breakpoint, the width of .img-container + padding
+  *******************************************************************/
+
+ @media screen and (max-width: 1180px){
+	 .visuals ul{
+	 	text-align: center;
+	 	display: inline-block;
+	 	margin: auto;
+	 	overflow: hidden;
+	 	width: 100%;
+	 	height: auto;
+	 }
+ }
+
+ /* ipad safari mobile -Landscape
+  *******************************************************************/
+
+ @media screen and (max-width: 1024px){
+	 .visuals ul{
+	 	text-align: center;
+	 	display: inline-block;
+	 	margin: auto;
+	 	overflow: hidden;
+	 	width: 100%;
+	 	height: auto;
+	 }
+ }
+
+ /* Second breakpoint, the width of .container + padding
+  *******************************************************************/
+
+ @media screen and (max-width: 880px){
+   body{
+     font-size: 90%;
+	 	}
+	 .visuals img{
+			overflow: hidden;
+			width: 100%;
+			height: auto;
+		 }
+ }
+
+ /* ipad safari mobile -Portrait
+  *******************************************************************/
+
+ @media screen and (max-width: 768px){
+	 .visuals img{
+			overflow: hidden;
+			width: 100%;
+			height: auto;
+		 }
+ }
+
+
+ /* For tablets and bigg ass Samsung phones
+  *******************************************************************/
+
+ @media screen and (max-width: 760px){
+	 .visuals img{
+			overflow: hidden;
+			width: 100%;
+			height: auto;
+		 }
+ }
+
+ /* For mobile phones
+  *******************************************************************/
+
+ @media screen and (max-width: 480px){
+   body{
+     font-size: 80%;
+   }
+ .visuals img{
+		overflow: hidden;
+		width: 100%;
+		height: auto;
+	 }
+	footer {
+		margin: 40px;
+	}
+ }
