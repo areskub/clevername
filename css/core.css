@@ -55,6 +55,7 @@ body {
 	color: #282828;
 	margin: auto;
 	text-align: center;
+	text-rendering: optimizeLegibility; 
 }
 a {
 	color: #282828;
@@ -126,7 +127,7 @@ header {
 	font-family: "effra", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
-	font-weight: 400;
+	font-weight: 100;
 }
 .mileage a {
 	border: none;
@@ -140,6 +141,7 @@ header {
 }
 .light {
 	color: rgba(0, 0, 0, 0.4);
+	font-weight: inherit;
 }
 .light a {
 	color: rgba(0, 0, 0, 0.4);
@@ -174,10 +176,10 @@ header {
 	background-color: #F7F7F7;
 }
 .front-mac {
-	background-color: #FF4848;
+	background-color: #EE5A5A;
 }
 .front-ipad {
-	background-color: #532DA4;
+	background-color: #7749D7;
 }
 .gitscout-icon {
 	background-color: #1B56A2;
