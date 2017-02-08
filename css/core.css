@@ -296,12 +296,18 @@ footer {
    body{
      font-size: 80%;
    }
- .visuals img{
-		overflow: hidden;
-		width: 100%;
-		height: auto;
+	 #signage {
+		 	padding: 0 60px;
 	 }
-	footer {
-		margin: 40px;
+	 .mylife {
+		 margin: 20px 60px;
+	 }
+	 .visuals img{
+			overflow: hidden;
+			width: 100%;
+			height: auto;
+	 }
+		footer {
+			margin: 40px;
 	}
  }
