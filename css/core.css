@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -48,15 +49,13 @@ table {
 }
 
 /* That's my stuff right there */
-
 body {
   background: #fafafa;
-	font-family: "Calluna", serif;
+	font-family: "calluna", serif;
 	color: #282828;
 	margin: auto;
 	text-align: center;
 }
-
 a {
 	color: #282828;
 	text-decoration: none;
@@ -66,30 +65,25 @@ a {
 	-moz-transition: all .2s;
 	transition: all .2s;
 }
-
 a:hover {
 	color: rgba(104, 186, 255, 1);
 	padding-bottom: 0px;
 	border-color: rgba(104, 186, 255, 0);
 }
-
 #container {
 	width: auto;
 	max-width: 800px;
 	margin: auto;
 }
-
 menu {
 	width: 100%;
 	height: 100px;
 	position: fixed;
 	top: 0;
 }
-
 #signage {
 	padding: 0 80px;
 }
-
 #mark {
 	float: left;
 	text-align: center;
@@ -99,13 +93,11 @@ menu {
 	opacity: 0.8;
 	z-index: 9999;
 }
-
 header {
 	margin-top: 160px;
 	margin-bottom: 100px;
 	width: auto;
 }
-
 .mylife {
 	text-align: left;
 	font-size: 2em;
@@ -117,54 +109,44 @@ header {
 	display: inline-block;
   vertical-align:top;
 }
-
 .mylife span {
 	color: #c1c1c1;
 }
-
 .mylife i {
 	font-size: 0.8em;
 	margin-bottom: 9px;
 }
-
 .case {
 	border-top: 1px solid rgba(151, 151, 151, 0.2);
 	padding: 60px 0;
 }
-
 .mileage{
 	font-size: 0.8em;
 	margin: 60px 0 10px 0;
-	font-family: "Avenir Next LT Pro", sans-serif;
+	font-family: "effra", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	font-weight: 400;
 }
-
 .mileage a {
 	border: none;
 	color: rgba(250, 250, 250, 0.3);
 }
-
 .mileage a:hover {
 	border-radius: 8px;
   background: rgba(0, 0, 0, 0.05);
   padding: 12px 12px 10px 12px;
 	color: rgba(250, 250, 250, 0.8);
 }
-
 .light {
 	color: rgba(0, 0, 0, 0.4);
 }
-
 .light a {
 	color: rgba(0, 0, 0, 0.4);
 }
-
 .light a:hover {
 	color: rgba(0, 0, 0, 0.8);
 }
-
 .visuals ul{
 	text-align: center;
 	display: inline-block;
@@ -173,55 +155,48 @@ header {
 	width: 100%;
 	height: auto;
 }
-
 .visuals a{
 	text-decoration: none;
 	border: none;
 }
-
 .visuals a:hover{
 	opacity: 0.5;
 }
 
 /* CASES */
-
 .paper {
 	background-color: #A0D9FA;
 }
-
 .figma {
 	background-color: #282828;
 }
-
 .front {
 	background-color: #F7F7F7;
 }
-
 .front-mac {
 	background-color: #FF4848;
 }
-
 .front-ipad {
 	background-color: #532DA4;
 }
-
 .gitscout-icon {
 	background-color: #1B56A2;
 }
-
 .mailuminati {
 	background-color: #FFC641;
 }
-
 .gitscout-ui {
 	background-color: #5AB2E2;
+}
+.app-icons {
+	background-color: #E2915A;
 }
 footer {
 	margin-top: 40px;
 	margin-bottom: 60px;
 	font-size: 0.8em;
 	color: rgba(0, 0, 0, 0.2);
-	font-family: "Avenir Next LT Pro", sans-serif;
+	font-family: "effra", sans-serif;
 
 }
 
